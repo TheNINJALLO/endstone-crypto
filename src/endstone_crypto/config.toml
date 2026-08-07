@@ -1,0 +1,392 @@
+enabled = true
+tick_seconds = 30
+chart_points = 60
+broadcast_every = 4
+award_min_depth = 16
+base_drop_chance = 0.004
+
+[ores]
+"minecraft:coal_ore" = 0.6
+"minecraft:iron_ore" = 0.8
+"minecraft:copper_ore" = 0.5
+"minecraft:gold_ore" = 1.0
+"minecraft:redstone_ore" = 1.2
+"minecraft:lapis_ore" = 1.1
+"minecraft:diamond_ore" = 2.0
+"minecraft:emerald_ore" = 2.4
+"minecraft:deepslate_diamond_ore" = 2.8
+"minecraft:ancient_debris" = 3.2
+
+[[coins]]
+symbol = "NINJ"
+name = "Ninjos Enterprise"
+start_price = 50.0
+min_price = 1.0
+max_price = 5000.0
+volatility = 0.25
+mining_weight = 1.2
+momentum = 0.10
+fee_bps = 30
+
+[[coins]]
+symbol = "DIAM"
+name = "Diamond Coperation"
+start_price = 250.0
+min_price = 5.0
+max_price = 10000.0
+volatility = 0.35
+mining_weight = 0.8
+momentum = 0.08
+fee_bps = 25
+
+[[coins]]
+symbol = "EMER"
+name = "Emerald Vale"
+start_price = 140.0
+min_price = 3.0
+max_price = 7000.0
+volatility = 0.30
+mining_weight = 0.9
+momentum = 0.08
+fee_bps = 25
+
+[[coins]]
+symbol = "RED"
+name = "Redstone Industries"
+start_price = 25.0
+min_price = 0.5
+max_price = 500.0
+volatility = 0.20
+mining_weight = 1.4
+momentum = 0.06
+fee_bps = 15
+
+[[coins]]
+symbol = "OBSID"
+name = "Obsidian Core"
+start_price = 80.0
+min_price = 1.0
+max_price = 4000.0
+volatility = 0.28
+mining_weight = 0.6
+momentum = 0.09
+fee_bps = 20
+
+[[coins]]
+symbol = "NTHR"
+name = "Netherium Core Inc."
+start_price = 1200.0
+min_price = 100.0
+max_price = 25000.0
+volatility = 0.45
+mining_weight = 0.2
+momentum = 0.12
+fee_bps = 40
+
+[[coins]]
+symbol = "AURUM"
+name = "Aurum Reserve"
+start_price = 110.0
+min_price = 2.0
+max_price = 6000.0
+volatility = 0.32
+mining_weight = 1.0
+momentum = 0.07
+fee_bps = 22
+
+[[coins]]
+symbol = "FERRO"
+name = "Ferrous Consolidated"
+start_price = 35.0
+min_price = 0.8
+max_price = 750.0
+volatility = 0.18
+mining_weight = 1.5
+momentum = 0.05
+fee_bps = 18
+
+[[coins]]
+symbol = "LAZUL"
+name = "Lazuli Analytics"
+start_price = 65.0
+min_price = 1.5
+max_price = 3000.0
+volatility = 0.26
+mining_weight = 1.1
+momentum = 0.09
+fee_bps = 20
+
+[[coins]]
+symbol = "QRTZ"
+name = "Quartz Holdings"
+start_price = 45.0
+min_price = 1.0
+max_price = 1500.0
+volatility = 0.22
+mining_weight = 1.3
+momentum = 0.07
+fee_bps = 17
+
+[[coins]]
+symbol = "EPORT"
+name = "EnderPort Logistics"
+start_price = 200.0
+min_price = 10.0
+max_price = 8000.0
+volatility = 0.38
+mining_weight = 0.5
+momentum = 0.11
+fee_bps = 35
+
+[[coins]]
+symbol = "NSTAR"
+name = "NetherStar Capital"
+start_price = 5000.0
+min_price = 500.0
+max_price = 100000.0
+volatility = 0.60
+mining_weight = 0.1
+momentum = 0.15
+fee_bps = 50
+
+[[coins]]
+symbol = "IGNIS"
+name = "Ignis Industries"
+start_price = 180.0
+min_price = 8.0
+max_price = 4500.0
+volatility = 0.33
+mining_weight = 0.7
+momentum = 0.10
+fee_bps = 28
+
+[[coins]]
+symbol = "SHULK"
+name = "Shulker Storage Solutions"
+start_price = 750.0
+min_price = 50.0
+max_price = 15000.0
+volatility = 0.40
+mining_weight = 0.3
+momentum = 0.13
+fee_bps = 38
+
+[[coins]]
+symbol = "AVIA"
+name = "Avia Dynamics"
+start_price = 3500.0
+min_price = 300.0
+max_price = 50000.0
+volatility = 0.50
+mining_weight = 0.15
+momentum = 0.14
+fee_bps = 45
+
+[[coins]]
+symbol = "UNDY"
+name = "Undying Ventures"
+start_price = 1500.0
+min_price = 150.0
+max_price = 30000.0
+volatility = 0.48
+mining_weight = 0.25
+momentum = 0.12
+fee_bps = 42
+
+[[coins]]
+symbol = "MARIN"
+name = "Prismarine Maritime"
+start_price = 90.0
+min_price = 4.0
+max_price = 3500.0
+volatility = 0.29
+mining_weight = 0.8
+momentum = 0.08
+fee_bps = 24
+
+[[coins]]
+symbol = "SENS"
+name = "Sculk Sensors Ltd."
+start_price = 400.0
+min_price = 20.0
+max_price = 9000.0
+volatility = 0.36
+mining_weight = 0.4
+momentum = 0.11
+fee_bps = 33
+
+[[coins]]
+symbol = "AMETH"
+name = "Amethyst Geode Group"
+start_price = 120.0
+min_price = 5.0
+max_price = 5000.0
+volatility = 0.31
+mining_weight = 0.9
+momentum = 0.09
+fee_bps = 26
+
+[[coins]]
+symbol = "LUX"
+name = "Lux Industries"
+start_price = 20.0
+min_price = 0.4
+max_price = 400.0
+volatility = 0.19
+mining_weight = 1.6
+momentum = 0.06
+fee_bps = 14
+
+[[coins]]
+symbol = "ANDEB"
+name = "Ancient Debris Mining"
+start_price = 800.0
+min_price = 75.0
+max_price = 18000.0
+volatility = 0.42
+mining_weight = 0.3
+momentum = 0.13
+fee_bps = 37
+
+[[coins]]
+symbol = "OCEAN"
+name = "Oceanic Trust"
+start_price = 600.0
+min_price = 40.0
+max_price = 12000.0
+volatility = 0.39
+mining_weight = 0.35
+momentum = 0.10
+fee_bps = 32
+
+[[coins]]
+symbol = "ABSOR"
+name = "Absorbent Systems"
+start_price = 220.0
+min_price = 15.0
+max_price = 6000.0
+volatility = 0.34
+mining_weight = 0.6
+momentum = 0.09
+fee_bps = 29
+
+[[coins]]
+symbol = "SLMTK"
+name = "SlimeTek Innovations"
+start_price = 55.0
+min_price = 2.0
+max_price = 2000.0
+volatility = 0.27
+mining_weight = 1.0
+momentum = 0.07
+fee_bps = 21
+
+[[coins]]
+symbol = "BCON"
+name = "Beacon Financial"
+start_price = 8000.0
+min_price = 1000.0
+max_price = 150000.0
+volatility = 0.65
+mining_weight = 0.05
+momentum = 0.18
+fee_bps = 60
+
+[[coins]]
+symbol = "DRAC"
+name = "Draconic Elixirs"
+start_price = 300.0
+min_price = 25.0
+max_price = 7500.0
+volatility = 0.37
+mining_weight = 0.45
+momentum = 0.12
+fee_bps = 34
+
+[[coins]]
+symbol = "OVOID"
+name = "The Ovoid Foundation"
+start_price = 20000.0
+min_price = 2500.0
+max_price = 500000.0
+volatility = 0.80
+mining_weight = 0.01
+momentum = 0.20
+fee_bps = 100
+
+[[coins]]
+symbol = "EXPLO"
+name = "Explosives Co."
+start_price = 70.0
+min_price = 3.0
+max_price = 2500.0
+volatility = 0.28
+mining_weight = 1.1
+momentum = 0.08
+fee_bps = 23
+
+[[coins]]
+symbol = "GTEAR"
+name = "Ghast Tear Solutions"
+start_price = 250.0
+min_price = 18.0
+max_price = 6500.0
+volatility = 0.35
+mining_weight = 0.55
+momentum = 0.11
+fee_bps = 31
+
+[[coins]]
+symbol = "MAGCO"
+name = "MagmaCorp"
+start_price = 100.0
+min_price = 5.0
+max_price = 4000.0
+volatility = 0.30
+mining_weight = 0.95
+momentum = 0.09
+fee_bps = 25
+
+[[coins]]
+symbol = "WTHSC"
+name = "Witherforce Securities"
+start_price = 1800.0
+min_price = 200.0
+max_price = 40000.0
+volatility = 0.55
+mining_weight = 0.2
+momentum = 0.16
+fee_bps = 48
+
+[[coins]]
+symbol = "TRIDT"
+name = "Trident Maritime"
+start_price = 1300.0
+min_price = 120.0
+max_price = 28000.0
+volatility = 0.46
+mining_weight = 0.28
+momentum = 0.14
+fee_bps = 41
+
+[[coins]]
+symbol = "CARBN"
+name = "Carbon Fuel Group"
+start_price = 10.0
+min_price = 0.2
+max_price = 200.0
+volatility = 0.15
+mining_weight = 1.8
+momentum = 0.04
+fee_bps = 10
+
+[[coins]]
+symbol = "APIS"
+name = "Apis Holdings"
+start_price = 40.0
+min_price = 1.0
+max_price = 1200.0
+volatility = 0.24
+mining_weight = 1.2
+momentum = 0.07
+fee_bps = 16
