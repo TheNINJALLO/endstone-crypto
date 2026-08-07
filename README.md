@@ -20,8 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> &bull;
-  <a href="#compatibility">Compatibility</a> &bull;
+  <a href="#what-it-does">What it does</a> &bull;
+  <a href="#how-to-use">How to use</a> &bull;
+  <a href="#commands-and-permissions">Commands</a> &bull;
   <a href="#install">Install</a> &bull;
   <a href="https://github.com/TheNINJALLO/endstone-crypto/releases">Releases</a>
 </p>
@@ -30,9 +31,23 @@
 
 Minecraft Bedrock (Endstone 0.11) crypto market with full GUI: buy/sell with Money scoreboard, mining drops, P2P trading, charts. This release is aligned with Endstone 0.11.8 and Minecraft Bedrock Dedicated Server 1.26.40, and is distributed as a Python wheel for direct installation in an Endstone server.
 
-## Capabilities
+## What it does
 
--
+- Adds a simulated crypto market backed by the server's `Money` scoreboard economy.
+- Supports GUI buying, selling, portfolio views, charts, mining drops, and player-to-player trading.
+- Provides operator controls for market behavior and persistent player holdings.
+
+## How to use
+
+1. Create or verify the `Money` scoreboard objective and review the generated market configuration.
+2. Players run `/crypto` (or `/market` or `/coinswap`) and use `/crypto help` for the available market actions.
+3. Use the GUI to buy or sell assets and review balances; grant the admin permission only for market controls.
+
+## Commands and permissions
+
+| Command / usage | What it does | Access |
+|---|---|---|
+| `/crypto [tail: message]`<br><sub>Aliases: `/market`, `/coinswap`</sub> | Crypto commands (/crypto help). | `endstone_crypto.command.crypto` |
 
 ## Compatibility
 
