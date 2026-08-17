@@ -48,7 +48,7 @@ class Config:
 
 class CryptoMarket(Plugin):
     
-    version = "3.0.1"          # Full GUI + scoreboard Money integration + player names with spaces support
+    version = "3.0.8"          # Full GUI + scoreboard Money integration + player names with spaces support
     api_version = "0.11"
     description = "Crypto simulation with GUI: prices, mining drops, bank & P2P trading with scoreboard Money."
     prefix = "Crypto"

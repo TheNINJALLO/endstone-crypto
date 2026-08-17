@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "endstone-crypto"
-version = "3.0.7"
+version = "3.0.8"
 description = "Minecraft Bedrock (Endstone 0.11) crypto market with full GUI: buy/sell with Money scoreboard, mining drops, P2P trading, charts."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"  # SPDX string fixes the setuptools deprecation
 authors = [{ name = "TheN1NJ4LL0" }]
 keywords = ["minecraft", "bedrock", "endstone", "plugin", "economy", "crypto"]
-dependencies = ["endstone>=0.11.8,<0.12"]
+dependencies = ["endstone>=0.11.9,<0.12"]
 
 [project.urls]
 Homepage = "https://endstone.dev"
